@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+  body{
+    background: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .main_container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #ffdbdb;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .left_side{
+    position: relative;
+    background: rgb(54, 54, 67);
+    padding: 40px;
+  }
+  .profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(0, 206, 206);
+  }
+  .profile_img{
+    position: relative;
+    width: 180px;
+    height: 200px;
+  }
+  .profile h2{
+    padding-top: 10px;
+    color: white;
+  }
+  .contact_info{
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 206, 206);
+  }
+  .contact{
+    padding-bottom: 20px;
+  }
+  .contact_info li{
+    margin-bottom: 10px;
+  }
+  .skills{
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 206, 206);
+  }
+  .skill{
+    padding-bottom: 20px;
+  }
+  .skills li{
+    
+    margin-bottom: 10px;
+  }
+  .language{
+    padding-top: 30px;
+    color: white;
+  }
+  .langu{
+    padding-bottom: 20px;
+  }
+  .language li{
+    margin-bottom: 10px;
+  }
+  
+  .right_side{
+    position: relative;
+    background: rgb(199, 199, 255);
+    padding: 40px;
+  }
+  .about{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 206, 206);
+  }
+  .title{
+    padding-bottom: 15px;
+  }
+  .about2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 206, 206);
+  }
+  .title2{
+    padding-bottom: 15px;
+  }
+  .about2 li{
+    margin-bottom: 15px;
+  }
+  .about2 h4{
+    font-weight: 500;
+    font-size: large;
+  }
+  .exp{
+    padding-top: 20px;
+  }
+  
+  
+
+  
